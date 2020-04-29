@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="bottom">
+            <h4>Creative Upload Service</h4>
+            <form action="/upload" enctype="multipart/form-data" method="POST">
+              <div>
+                <label>Description</label><br>
+                <input type="text" name="description" placeholder="Enter a description here" style="width: 300px; height: 30px;"  title="Name must be a minimum 4 letter word">
+              </div>
+              <div>
+                <input type="file" name="file"  style="width: 300px; height: 30px;">
+              </div>
+              <input type="submit" name="upload">
+        
+            </form>
+            
+          </div>
+
+    </body>
+</html>
